@@ -1,0 +1,51 @@
+product_id,product_name,category_id,price,stock
+101,Wireless Mouse,1,799.00,50
+102,Keyboard,1,1299.00,40
+103,Smartphone,1,15999.00,25
+104,Laptop,1,55999.00,15
+105,Bluetooth Headphones,1,2499.00,35
+106,Smart Watch,1,4999.00,30
+107,USB Cable,1,299.00,100
+108,Power Bank,1,1999.00,45
+109,Tablet,1,22999.00,20
+110,Webcam,1,1799.00,25
+111,T-Shirt,2,499.00,120
+112,Jeans,2,1499.00,80
+113,Formal Shirt,2,1299.00,60
+114,Women's Top,2,899.00,70
+115,Jacket,2,2999.00,40
+116,Sneakers,2,2599.00,50
+117,Running Shoes,5,2999.00,45
+118,Sandals,2,999.00,65
+119,Cap,2,399.00,90
+120,Socks Pack,2,299.00,150
+121,Refrigerator,3,24999.00,10
+122,Washing Machine,3,18999.00,12
+123,Microwave Oven,3,9999.00,18
+124,Air Conditioner,3,34999.00,8
+125,Vacuum Cleaner,3,6999.00,20
+126,Electric Kettle,3,1999.00,30
+127,Mixer Grinder,3,3999.00,25
+128,Water Purifier,3,12999.00,15
+129,Ceiling Fan,3,2499.00,35
+130,Room Heater,3,2999.00,22
+131,Fiction Book,4,499.00,100
+132,Non-Fiction Book,4,699.00,90
+133,Exam Preparation Book,4,899.00,70
+134,Children Story Book,4,399.00,120
+135,Notebook Pack,4,299.00,200
+136,Pen Set,4,199.00,300
+137,Office Diary,4,249.00,150
+138,Drawing Kit,4,599.00,80
+139,Magazine Subscription,4,999.00,60
+140,Comic Book,4,349.00,110
+141,Cricket Bat,5,2499.00,30
+142,Football,5,999.00,50
+143,Badminton Racket,5,1799.00,40
+144,Tennis Ball Pack,5,499.00,70
+145,Yoga Mat,5,899.00,60
+146,Dumbbell Set,5,2999.00,25
+147,Skipping Rope,5,299.00,100
+148,Gym Gloves,5,499.00,90
+149,Cycle Helmet,5,1999.00,35
+150,Sports Water Bottle,5,349.00,120
