@@ -49,4 +49,5 @@ It focuses on database normalization, data insertion, and advanced SQL queries t
 
 ## 👤 Author
 **DHARSAN R S** 
+
 **LINKEDIN PROFILE - www.linkedin.com/in/dharsan-r-s-201867292/**
