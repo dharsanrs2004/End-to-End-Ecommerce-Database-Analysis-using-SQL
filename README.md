@@ -1,4 +1,4 @@
-# 🛒 END-TO-END E-COMMERCE DATABASE DESIGN AND SALES ANALYSIS USING SQL
+# 🛒 END-TO-END E-COMMERCE DATABASE ANALYSIS USING SQL
 
 ## 📌 Project Overview
 This project demonstrates the complete design and implementation of a real-world E-Commerce database using SQL.  
