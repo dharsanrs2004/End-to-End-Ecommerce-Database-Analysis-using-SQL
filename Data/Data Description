@@ -1,0 +1,99 @@
+## 📊 Dataset Description
+
+This project uses a **real‑world simulated E‑Commerce dataset** designed to represent how online retail platforms manage customers, products, orders, and payments.  
+The dataset is stored in **CSV format** and imported into a **relational SQL database**, following proper normalization principles to ensure data integrity and scalability.
+
+---
+
+### 📁 Dataset Files
+
+The dataset consists of **6 interrelated tables** representing the complete E‑Commerce workflow.
+
+---
+
+### 1️⃣ customers.csv
+Stores customer‑related information.
+
+**Columns:**
+- `customer_id` (Primary Key)
+- `name`
+- `email`
+- `phone`
+- `city`
+- `registration_date`
+
+**Purpose:**  
+Used for customer segmentation, behavior analysis, and purchase tracking.
+
+---
+
+### 2️⃣ categories.csv
+Stores product category information.
+
+**Columns:**
+- `category_id` (Primary Key)
+- `category_name`
+
+**Purpose:**  
+Enables category‑wise product organization and sales analysis.
+
+---
+
+### 3️⃣ products.csv
+Stores product details available on the platform.
+
+**Columns:**
+- `product_id` (Primary Key)
+- `product_name`
+- `price`
+- `category_id` (Foreign Key)
+
+**Purpose:**  
+Used for pricing analysis, product performance tracking, and demand analysis.
+
+---
+
+### 4️⃣ orders.csv
+Stores customer order information.
+
+**Columns:**
+- `order_id` (Primary Key)
+- `customer_id` (Foreign Key)
+- `order_date`
+- `status` (Completed, Pending, Cancelled)
+
+**Purpose:**  
+Tracks customer purchase history and order lifecycle.
+
+---
+
+### 5️⃣ order_items.csv
+Stores detailed product‑level order information.
+
+**Columns:**
+- `order_item_id` (Primary Key)
+- `order_id` (Foreign Key)
+- `product_id` (Foreign Key)
+- `quantity`
+- `price`
+
+**Purpose:**  
+Used to calculate order value, sales volume, and product demand.
+
+---
+
+### 6️⃣ payments.csv
+Stores payment transaction details.
+
+**Columns:**
+- `payment_id` (Primary Key)
+- `order_id` (Foreign Key)
+- `payment_method`
+- `amount`
+- `status` (Completed, Failed, Pending)
+- `payment_date`
+
+**Purpose:**  
+Used for revenue tracking, payment analysis, and failure detection.
+
+---
